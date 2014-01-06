@@ -1,0 +1,18 @@
+# http://humanstxt.org/
+
+/*TEAM*/
+
+Designer & Developer : Elisa Koon
+Site : http://koon0010.site44.com/
+Twitter : @elisakoon
+Location : Ottawa, Canada
+
+
+/*THANKS*/
+To all the people who helped me with coding and finding the bugs in my css.
+
+/*SITE*/
+Last update : 2013/12/11
+Standards: HTML5, CSS3
+Components: Modernizer, Jquery, etc...
+Software: Adobe, Livereload, Sublime Text 2

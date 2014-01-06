@@ -1,0 +1,11 @@
+# Hashes are comments
+
+#http://robotstxt.org
+
+Sitemap:http://koon0010.site44.com/sitemap.xml
+
+user-agent: *
+
+
+Disallow: /name-of-file-you-want-to-disallow/
+Disallow: /assets/

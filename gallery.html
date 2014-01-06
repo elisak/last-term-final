@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>My Sweet Tea</title>
+		<link href='css/reset.css' rel='stylesheet'>
+
+		<!-- font link -->
+		<link href='http://fonts.googleapis.com/css?family=Krona+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Alef:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+		<!-- Font Awesome -->
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+		<!-- flexslider -->
+		<link rel="stylesheet" href="flexslider/flexslider.css"  type="text/css">
+
+		<link href="css/general.css" rel="stylesheet">
+
+		<meta name="handheldfriendly" content="true">
+		<meta name="mobileoptimized" content="240">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	</head>
+
+	<body>
+		<header>
+			<a href="index.html"><img src="images/logo.svg" class="logo" alt='logo'></a>
+
+		
+			<h1>My Sweet Tea</h1>
+			
+			<a href='#nav' class='nav-btn hide-text'> Navigation</a>
+			<nav class="nav nav-top" data-state="collapsed">	
+				<ul>
+					<li><a href='index.html'>Home</a></li>
+					<li><a href='menu.html'>Menu</a></li>
+					<li><a href='gallery.html'>Gallery</a></li>					
+					<li><a href='about-us.html'>About</a></li>	
+				</ul>
+			</nav>
+		
+		</header>
+		
+
+			<h2>Gallery</h2>
+			
+		<main>
+		<!--  Flexslider Starts-->
+			<div class="flexslider">
+			  <ul class="slides">
+				  <li>
+						<img src="images/brick-toast.jpg" alt="Brick toast, toast with chocolate and banana" >
+					     <p class="flex-caption">Brick Toast with chocolate drizzle</p>
+				    </li>
+				    <li>
+				    	<img src="images/california-roll-2.jpg" alt="California Roll">
+						<p class="flex-caption">Califonia roll</p>
+				    </li>
+				    <li>
+				      	<img src="images/california-roll-3.jpg" alt="california roll with advocado" >
+				      	<p class="flex-caption">California Roll</p>
+				    </li>
+					<li>
+						<img src="images/futomaki.jpg" alt="Futomaki">
+						<p class="flex-caption">Futomaki</p>
+					</li>
+					<li>
+						<img src="images/mix-plate.jpg" alt="Variety of Sushi">
+						<p class="flex-caption">Variety of Sushi</p>
+					</li>
+					<li>
+						<img src="images/nigiri.jpg" alt="Nigiri Sushi">
+						<p class="flex-caption">Nigiri Sushi</p>
+					</li>
+					<li>
+						<img src="images/slush.jpg" alt="Slush Drink">
+						<p class="flex-caption">Slush Drink</p>
+					</li>
+					<li>
+						<img src="images/sushi-roll.jpg" alt="Sushi Roll">
+						<p class="flex-caption">Sushi Roll</p>
+					</li>
+
+			  	</ul>
+			</div>
+		</main>
+		<!-- Flexslider Ends -->
+
+		<!-- Import the jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<!-- Import the Flexslider plugin -->
+		<script src="flexslider/jquery.flexslider-min.js"></script>
+		<!-- Fires the plugin (tells it to GO!) -->
+		<script type="text/javascript" charset="utf-8">
+		  $(window).load(function() {
+		    $('.flexslider').flexslider({ 
+		    	animation: "slide",
+		    	slideshowSpeed: 3000, 
+		    	pauseOnHover: true,
+				});
+		  });
+		
+		</script>
+
+
+		<footer class='footer'>
+
+			<section>
+				<!--  LINKS-->
+				<ul class='social'>
+					<li>
+						<a href='https://www.facebook.com/pages/My-Sweet-Tea/150783621627186' class='ease-all'>
+						<i class='fa fa-facebook'></i>
+						<span class='hide-text'>Facebook</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href='http://www.yelp.com/biz/my-sweet-tea-ottawa' class='ease-all'>
+						<i class='fa  fa-phone'></i>
+						<span class='hide-text'>yelp</span>
+						</a>
+					</li>
+
+					<li>
+						<a href='https://foursquare.com/v/my-sweet-tea-bubble-tea/4b9c6029f964a520f66336e3?ref=atw' class='ease-all'>
+						<i class='fa  fa-foursquare'></i>
+						<span class='hide-text'>foursquare</span>
+						</a>
+					</li>
+				</ul>
+			</section>
+
+			<p>&#169; Copyright 2013</p>
+
+			<nav class="nav nav-bottom">
+				<ul>
+					<li><a href='index.html'>Home</a></li>
+					<li><a href='menu.html'>Menu</a></li>
+					<li><a href='gallery.html'>Gallery</a></li>					
+					<li><a href='about-us.html'>About</a></li>					
+				</ul>
+			</nav>
+
+		</footer>
+		
+	<script src="js/nav.js"></script> 
+
+	</body>
+
+</html>
